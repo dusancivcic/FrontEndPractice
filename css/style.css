@@ -9,10 +9,12 @@ fonts{
     font-family: 'Noto Sans JP', sans-serif;
 }
 */
-*, *::before, *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
   background-color: rgb(203, 231, 255);
@@ -58,10 +60,11 @@ ul {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin: 30px 0px 30px 0px;
 }
 
 #about-image {
-  margin: 20px 100px 20px 5px;
+  margin: 20px 150px 20px 80px;
 }
 
 #about-paragraph {
@@ -77,20 +80,21 @@ ul {
 }
 .image-container-images {
   height: 200px;
-  width: 60%;
-  margin: 0px 30px 0px 0px;
+  margin-right: 40px;
 }
 #image-container {
-  margin: 30px 20px 30px 50px;
+  margin: 5px 0px 40px 0px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 #image-container-header {
+  margin: 30px 0px 0px 0px;
   text-align: center;
 }
 #our-clients-header {
+  margin: 30px 0px 10px 0px;
   text-align: center;
 }
 #our-clients-container {
@@ -98,16 +102,17 @@ ul {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 0px 0px 30px 0px;
+  margin: 0px 0px 40px 45px;
 }
 #table-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px 0px 30px 0px;
+  margin: 0px 0px 40px 0px;
 }
 #package-header {
   text-align: center;
+  margin: 30px 0px 0px 0px;
 }
 #contact-container {
   display: flex;
@@ -125,8 +130,8 @@ ul {
 }
 
 #contact-image {
-  height: 210px;
-  width: 25%;
+  height: 230px;
+
   margin: 0px 30px 0px 0px;
 }
 
@@ -156,7 +161,7 @@ ul {
 }
 #contact-header {
   text-align: center;
-  margin: 10px 0px 0px 0px;
+  margin: 30px 0px 0px 0px;
 }
 
 .topnav {
